@@ -26,3 +26,9 @@ print("End with 'h'?", name.endswith("h"))  # Output: End with 'h'? True
 print("Start with 'G'?", name.startswith("G"))  # Output: Start with
 print("Start with 'g'?", name.startswith("g"))  # Output: Start with 'g'? False
 print("Strip whitespace:", "  " + name + "  ".strip())  # Output: Strip whitespace: Ganesh
+
+letter= '''Dear name,
+You are selected for the Data Analyst role at XYZ Company.
+date'''
+print(letter.replace("name", "Ganesh").replace("date", "2024-06-01"))  # Output: Dear Ganesh, Ganesh
+print(letter.find("  "))
