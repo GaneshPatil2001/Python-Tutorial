@@ -21,3 +21,16 @@ print(s.union(s2))  # Output: {2, 3, 4, 5}
 print(s2.intersection(s))  # Output: {3}
 print(s2.difference(s))  # Output: {2}
 print(s.symmetric_difference(s2))  # Output: {2, 4, 5}
+
+print(len(s.union(s2)))  # Output: 4
+print(s2.issubset(s.union(s2)))  # Output: True
+print(s.issuperset(s2.intersection(s)))  # Output: True
+print(subset := {2, 3}.issubset(s.union(s2)) ) # Output: True
+
+#Problem 1: WAP to input 8 numbers from the user and display all the unique numbers once.
+numbers=set()
+for i in range(8):
+    num=int(input("Enter the number: "))
+    numbers.add(num)
+print(numbers)
+    
