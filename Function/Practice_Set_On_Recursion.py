@@ -21,3 +21,14 @@ number = int(input("Enter a number to count its digits: "))
 digit_count = count_digits_recursive(number)
 print(f"The number of digits in {number} is: {digit_count}")
 
+#Find the greatest common divisor (GCD) of two numbers using recursion
+def gcd_recursive(a, b):
+    if b==0:
+        return a
+    return gcd_recursive(b,a%b)
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+gcd_result = gcd_recursive(num1, num2)
+print(f"The greatest common divisor of {num1} and {num2} is: {gcd_result}")
+
