@@ -4,7 +4,7 @@ class student:
         arg.name = name            # class attribute
         arg.age = age
 
-    def display(arg):
+    def display(arg):           #arg is conversions
         print("Name:", arg.name)
         print("Age:", arg.age)
 
