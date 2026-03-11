@@ -1,5 +1,5 @@
-# **🐍 Python Fundamentals – Learning Repository
-**This repository documents my Python learning journey while following the complete Python tutorial by CodeWithHarry.
+# 🐍 Python Fundamentals – Learning Repository
+This repository documents my Python learning journey while following the complete Python tutorial by CodeWithHarry.
 The objective of this repository is to build a strong foundation in Python programming by implementing core concepts, solving practice problems, and developing small projects.
     This repository demonstrates my understanding of Python fundamentals, problem-solving ability, and coding practices, which are essential for roles in Software Development, Data Analysis, and Data Science.
 #📺 Learning Resource
