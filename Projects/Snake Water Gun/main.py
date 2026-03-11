@@ -18,8 +18,8 @@ else:
     if computer == user:
         print("It's a tie!")
     elif (computer == -1 and user == 1) or \
-         (computer == 1 and user == 0) or \
-         (computer == 0 and user == -1):
+        (computer == 1 and user == 0) or \
+        (computer == 0 and user == -1):
         print("Computer wins!")
     else:
         print("User wins!")
